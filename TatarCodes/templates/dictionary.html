@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="bg-green-library">
+      <div class="container">
+        <h1 class="text-white pading-top-30">Файдалы сүзләр китапханәсе</h1>
+        <h2 class="text-white pading-top-30">Монда программалаштыру өчен барлык
+          төп функциональ структуралар язылган.</h2>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div class="container">
+        <table class="table">
+          <thead>
+            <tr><th scope="col">Татар Python</th>
+              <th scope="col">Гадәти Python</th></tr>
+          </thead>
+          <tbody>
+            {% for en, tat in data %}
+                <tr>
+                    <td>{{ tat }}</td>
+                    <td>{{ en }}</td>
+                </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+{% endblock %}

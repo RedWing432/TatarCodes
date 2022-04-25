@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="bg-green">
+    <div class="container">
+        <h2 class="text-white pading-top-30" style="font-family:Arial">Дөнья сәлам!</h2>
+        <h3 class="text-white" style="font-family:Arial">
+            TatarCodes - сез программалаштыруда башка телләрне өйрәнүгә катнашмыйча гамәлдә була алган платформа ул
+        </h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h5 class="text-white pading-top-30" style="font-family:Arial">Tatar Python</h5>
+                    <section class="code text-white" style="font-family:Arial">
+                        <span class="func">язарга</span>(<span class="str">'Hello world!'</span>)
+                    </section>
+                </div>
+                <div class="col-sm">
+                    <h5 class="text-white pading-top-30" style="font-family:Arial">Default Python</h5>
+                    <section class="code text-white" style="font-family:Arial">
+                        <span class="func">print</span>(<span class="str">'Hello world!'</span>)
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="pading-top-30" style="font-family:Arial">
+            <a href="/register" class="btn btn-warning ">Теркәлү</a>
+        </div>
+    </div>
+</section>
+<section class="bg-white">
+    <div class="container">
+        <h2 class="text-grey pading-top-30" style="font-family:Arial">Төп плюслар</h2>
+        <div class="container pading-top-30" style="font-family:Arial">
+            <div class="row">
+                <div class="col-sm">
+                    <section class="pluses text-white" style="font-family:Arial">
+                        <h3>Тел</h3>
+                        <h4>Нәрсәдер булса да программалаштырырга өйрәнү өчен, күп кенә башка телләрне өйрәнергә
+                            кирәкми</h4>
+                        <img src="static/img/lang.png" alt="" width="160" height="160" class="img-center">
+                    </section>
+                </div>
+                <div class="col-sm text-white" style="font-family:Arial">
+                    <section class="pluses">
+                        <img src="static/img/mind.png" alt="" width="133" height="163" class="img-center">
+                        <h3>Татар телен популярлаштыру</h3>
+                        <h4>Кулланучылар программаларны татар телендә язачак, шуның белән аны үстерәчәк һәм
+                            таратачак</h4>
+                    </section>
+                </div>
+                <div class="col-sm text-white">
+                    <section class="pluses text-white" style="font-family:Arial">
+                        <h3>Программалаштыру практикасы</h3>
+                        <h4>Программалаштыру белемнәрен гамәлдә куллану</h4>
+                        <img src="static/img/programer.png" alt="" width="160" height="160" class="img-center">
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+            <span class="text-white">Silaley</span>
+        </div>
+    </nav>
+</section>
+{% endblock %}

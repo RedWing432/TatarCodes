@@ -1,0 +1,83 @@
+
+.bg-green {
+  background-color: #60bf49;
+  height: 400px;
+}
+
+.bg-white {
+  background-color: white;
+  height: 620px;
+}
+
+.code {
+  background-color: rgb(46, 46, 46);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.text-white {
+  font-family: "Palatino Linotype";
+  color: white;
+}
+
+.text-grey {
+  font-family: "Palatino Linotype";
+  color: rgb(63, 63, 63);
+}
+
+.pading-top-30 {
+  padding-top: 30px;
+}
+
+.pluses {
+  border-radius: 20px;
+  border-color: rgb(63, 63, 63);
+  border: 30px;
+  padding: 30px;
+  background-color: #60bf49;
+}
+
+.img-center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.pading-down-30 {
+  padding-down: 30px;
+}
+
+.func {
+  color: #5549bf;
+}
+
+.str {
+  color: green;
+}
+
+.bg-green-library {
+  background-color: #60bf49;
+  height: 230px;
+}
+
+.text-black {
+  font-family: "Palatino Linotype";
+  color: black;
+}
+
+
+.code-area {
+  height: 400px;
+  width: 100%;
+}
+
+
+.result-area {
+  height: 200px;
+  width: 100%;
+}
+
+
+.message-box{
+    margin-bottom: 20px;
+}

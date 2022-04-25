@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+<h1>Интерпритатор</h1>
+<form action="{{ url_for('interprete') }}" method="POST">
+    <p>
+        Код<br>
+        <textarea class='message-box code-area' name="code" placeholder="Монда кодңы язагыз">{{code}}</textarea>
+        <br>
+    </p>
+    <p><input type="submit" class="my-cta-button" value="Run"></p>
+    <p>
+        Нәтиҗә<br>
+        <textarea class='message-box result-area' name="result">{{result}}</textarea><br>
+    </p>
+</form>
+</div>
+{% endblock %}
